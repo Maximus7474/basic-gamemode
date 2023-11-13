@@ -1,3 +1,5 @@
+fx_version 'adamant'
+game 'common'
 description 'A basic freeroam gametype that respawns a player at his last position'
 
 --[[ 
@@ -13,6 +15,3 @@ server_script 'basic_server.lua'
 client_script 'basic_client.lua'
 
 shared_script 'config.lua'
-
-game 'common'
-fx_version 'adamant'
